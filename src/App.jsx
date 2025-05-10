@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API_URL = "http://localhost:5000/api/products";
+const API_URL = "https://hack-be.onrender.com/api/products";
 
 function App() {
   const [products, setProducts] = useState([]);
