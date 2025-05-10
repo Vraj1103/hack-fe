@@ -1,0 +1,90 @@
+/* App.css */
+body {
+  background-color: #1a1a1a;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  font-size: 36px;
+  color: #00ccff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1::before {
+  content: "🛒";
+  margin-right: 10px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  background-color: #333;
+  color: white;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #00ccff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0099cc;
+}
+
+.product-list {
+  margin: 0 auto;
+  max-width: 800px;
+  border-top: 1px solid #555;
+  padding-top: 20px;
+}
+
+.product-list h2 {
+  margin-bottom: 10px;
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #2a2a2a;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.delete-button {
+  background-color: #ff4d4d;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #ff3333;
+}
+
+input[type="text"] {
+  width: 150px;
+}
